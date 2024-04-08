@@ -1,0 +1,15 @@
+# CMakeLists.txt
+ 
+cmake_minimum_required(VERSION 3.22.1)
+project(VCDP)
+ 
+# Define include directories
+include_directories(include)
+ 
+# Define the sources to be compiled
+set(SOURCES
+    src/main.cpp
+)
+ 
+# Add an executable target
+add_executable(${Project_Name} ${SOURCES})
